@@ -27,19 +27,13 @@ Installation
 
 Clone the repository:
 
-    bash
-
     git clone [REPO_URL]
 
 Navigate to the app's directory:
 
-    bash
-
     cd path/to/app
 
 Install dependencies:
-
-    bash
 
     pip install -r requirements.txt
 
@@ -51,31 +45,25 @@ makefile
 
 Running the App
 
-    Run the Flask app:
-
-    bash
+Run the Flask app:
 
     python multi-lang-app.py
 
-    Access the app in a web browser at http://localhost:5000.
+Access the app in a web browser at http://localhost:5000.
 
 🖼️ Using the App
 
-    Choose your language (English or French).
-    Upload an image and ask a question related to it.
-    Get an insightful response based on advanced AI analysis. 🧠💡
+Choose your language (English or French).
+Upload an image and ask a question related to it.
+Get an insightful response based on advanced AI analysis. 🧠💡
 
 🔧 Docker Support
 
-    Build the Docker image:
-
-    bash
+Build the Docker image:
 
     docker build -t multi-lang-app .
 
 Run the Docker container:
-
-    bash
 
     docker run -p 5000:5000 multi-lang-app
 
